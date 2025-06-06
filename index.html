@@ -9,6 +9,48 @@
   <style>
     .social-icons a { color: white; margin: 0 10px; }
     .lang-switch { cursor: pointer; font-weight: bold; }
+
+    .wa-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+        padding: 12px 20px;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease;
+    }
+
+    .wa-float:hover {
+        transform: scale(1.05);
+        text-decoration: none;
+        color: white;
+    }
+
+    .wa-float i {
+        font-size: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .wa-float {
+        padding: 10px 16px;
+        font-size: 14px;
+        bottom: 15px;
+        right: 15px;
+        }
+
+        .wa-float i {
+        font-size: 18px;
+        }
+    }
+
   </style>
 </head>
 <body class="bg-light">
@@ -227,12 +269,7 @@
             <button type="submit" class="btn btn-light font-weight-bold">Send Message</button>
           </form>
 
-          <!-- WhatsApp button -->
-          <a href="https://wa.me/6281218631767?text=Hello%2C%20...%20bolehkah%20saya%20tahu%20lebih%20banyak%20tentang%20Jasmine-Edu" 
-            target="_blank" 
-            class="wa-float">
-            <i class="fab fa-whatsapp"></i> Whatsapp Chat
-          </a>
+
 
           <!-- Address -->
           <div class="text-center mt-3">
@@ -253,6 +290,13 @@
     </div>
     &copy; 2025 Jasmine Education. All rights reserved.
   </footer>
+
+    <!-- WhatsApp button -->
+    <a href="https://wa.me/6281218631767?text=Hello%2C%20...%20bolehkah%20saya%20tahu%20lebih%20banyak%20tentang%20Jasmine-Edu" 
+    target="_blank" 
+    class="wa-float">
+    <i class="fab fa-whatsapp"></i> Whatsapp Chat
+    </a>
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
