@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasmine Education - Professional Education Consulting</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
+  <style>
+    .social-icons a { color: white; margin: 0 10px; }
+    .lang-switch { cursor: pointer; font-weight: bold; }
+  </style>
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand font-weight-bold" href="#">Jasmine Education</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero -->
+  <header class="jumbotron text-center bg-primary text-white mb-0">
+    <h1 class="display-4">Empowering Education Excellence</h1>
+    <p class="lead">Professional consulting services for your educational success</p>
+    <a href="#contact" class="btn btn-light mt-3 font-weight-bold">Contact Us</a>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 text-primary font-weight-bold">About Jasmine Education</h2>
+      <p class="text-center text-muted mb-5">Get a complete guide on how to apply for a student visa, including requirements and tips to improve your chances of getting a visa.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://source.unsplash.com/600x400/?education,consulting" alt="" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <p>We specialize in curriculum design, academic management, and professional development for educators. Our team of experts brings years of experience and innovative approaches to help your institution thrive in an ever-changing educational landscape.</p>
+        </div>
+      </div>
+
+      <!-- Link YouTube Video -->
+      <section id="video" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4 text-primary font-weight-bold">Watch Our Video</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="embed-responsive embed-responsive-16by9 shadow rounded">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0cFV56Ock-U?si=RfLWBl35PWYkVGWR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4 text-primary font-weight-bold">Our Services</h2>
+      <div class="row">
+        <!-- Services cards -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="fas fa-chalkboard-teacher fa-3x text-primary mb-3"></i>
+              <h5 class="card-title font-weight-bold">Curriculum Development</h5>
+              <p class="card-text">Designing engaging and effective learning programs that meet your institution's needs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="fas fa-users fa-3x text-primary mb-3"></i>
+              <h5 class="card-title font-weight-bold">Teacher Training</h5>
+              <p class="card-text">Empowering educators with modern teaching strategies and best practices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+              <h5 class="card-title font-weight-bold">Institutional Consulting</h5>
+              <p class="card-text">Strategic support and management consulting for schools, colleges, and universities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+<section id="clients" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4 text-primary font-weight-bold">Our Clients</h2>
+    <p class="text-center text-muted mb-5">We’re proud to have collaborated with leading educational institutions.</p>
+
+    <div id="clientCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 (4 users) -->
+        <div class="carousel-item active">
+          <div class="row">
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle mb-3" alt="Client 1" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">Sarah Johnson</h5>
+              <p class="text-muted small">"Great curriculum development."</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" alt="Client 2" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">Michael Lee</h5>
+              <p class="text-muted small">"Excellent teacher training."</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/women/47.jpg" class="rounded-circle mb-3" alt="Client 3" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">Emily Davis</h5>
+              <p class="text-muted small">"Strategic institutional consulting."</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/men/44.jpg" class="rounded-circle mb-3" alt="Client 4" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">James Smith</h5>
+              <p class="text-muted small">"Very helpful guidance."</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Slide 2 (4 users) -->
+        <div class="carousel-item">
+          <div class="row">
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3" alt="Client 5" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">Laura Wilson</h5>
+              <p class="text-muted small">"Wonderful experience."</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/men/67.jpg" class="rounded-circle mb-3" alt="Client 6" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">David Brown</h5>
+              <p class="text-muted small">"Very professional."</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/women/22.jpg" class="rounded-circle mb-3" alt="Client 7" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">Megan Taylor</h5>
+              <p class="text-muted small">"Highly recommended."</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <img src="https://randomuser.me/api/portraits/men/28.jpg" class="rounded-circle mb-3" alt="Client 8" style="width:100px; height:100px; object-fit:cover;">
+              <h5 class="font-weight-bold">Chris Evans</h5>
+              <p class="text-muted small">"Great support."</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#clientCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#clientCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Pastikan sudah load jQuery dan Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 bg-primary text-white">
+    <div class="container">
+      <h2 class="text-center mb-4 font-weight-bold">Contact Us</h2>
+      <p class="text-center mb-5">Let’s discuss how we can help you achieve your educational goals.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name" class="font-weight-bold">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your name" />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="email" class="font-weight-bold">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message" class="font-weight-bold">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-light font-weight-bold">Send Message</button>
+          </form>
+
+          <!-- WhatsApp button -->
+          <a href="https://wa.me/6281218631767?text=Hello%2C%20...%20bolehkah%20saya%20tahu%20lebih%20banyak%20tentang%20Jasmine-Edu" 
+            target="_blank" 
+            class="wa-float">
+            <i class="fab fa-whatsapp"></i> Whatsapp Chat
+          </a>
+
+          <!-- Address -->
+          <div class="text-center mt-3">
+            <p class="mb-0">Alamat: Jln Matraman Raya no 30, Jakarta Pusat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="mb-2">
+      <a href="#" class="text-white social-icons"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="text-white social-icons"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/channel/UCxxxxxxx" target="_blank" class="text-white social-icons"><i class="fab fa-youtube"></i></a>
+      <a href="#" class="text-white social-icons"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    &copy; 2025 Jasmine Education. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Sederhana: ganti label saja
+    $('#lang-en').click(() => { alert('Switch to English! (demo only)'); });
+    $('#lang-id').click(() => { alert('Beralih ke Bahasa Indonesia! (demo only)'); });
+  </script>
+</body>
+</html>
